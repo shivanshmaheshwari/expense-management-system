@@ -11,6 +11,9 @@
     "dev": "concurrently \"npm start\" \"npm run client\"",
     "build": "npm install && npm install --prefix client && npm run build --prefix client"
   },
+  "engines": {
+    "node": ">=14.20.1"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
