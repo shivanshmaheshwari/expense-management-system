@@ -5,7 +5,7 @@
     "main": "index.js",
     "scripts": {
       "build": "cd backend && npm install  && cd ../frontend && npm install && npm run build",
-      "start": "node backend/app.js && npm frontend/app.js",
+      "start": "node backend/app.js && npm start frontend/app.js",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
     "author": "Shivansh Maheshwari",
