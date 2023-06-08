@@ -4,7 +4,7 @@
   "description": "expense tracker app",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
+    "start": "nodemon app.js",
     "start:dev" : "nodemon app.js",
     "client": "npm start --prefix client",
     "client-install" : "npm install --prefix client",
