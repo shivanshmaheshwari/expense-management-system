@@ -1,13 +1,13 @@
 {
     "name": "expense-management-app",
     "version": "1.0.0",
-    "description": "expense managemtn app track all expenses",
+    "description": "expense management app track all expenses",
     "main": "index.js",
     "scripts": {
       "build": "cd backend && npm install  && cd ../frontend && npm install && npm run build",
-      "start": "node backend/app.js",
+      "start": "node backend/app.js && npm frontend/app.js",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "author": "",
+    "author": "Shivansh Maheshwari",
     "license": "ISC"
   }
